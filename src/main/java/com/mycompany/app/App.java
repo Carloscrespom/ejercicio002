@@ -6,8 +6,9 @@ package com.mycompany.app;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public String getTexto()
     {
-        System.out.println( "Hello World!" );
+        return "Hola";
     }
 }
+
